@@ -1,0 +1,4 @@
+pandas>=2.2.3,<3
+streamlit>=1.45,<2
+plotly>=6.0,<7
+opencc-python-reimplemented>=0.1.7,<1

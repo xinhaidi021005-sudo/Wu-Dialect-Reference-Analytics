@@ -1,0 +1,33 @@
+# Virtualenv and Python build artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.vscode/
+
+# No proprietary or uploaded data; public source is fetched on first setup
+data/wikihan-ipa.tsv
+data/processed/
+reports/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Developer secrets and local telemetry
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local edit artifacts
+*.bak
+*.backup
+*_backup.*
